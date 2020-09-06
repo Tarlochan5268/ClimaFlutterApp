@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->F:\Flutter_Projects\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->F:\Flutter_Projects\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <!--
 16     io.flutter.app.FlutterApplication is an android.app.Application that
 17         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -21,56 +21,78 @@
 19         additional functionality it is fine to subclass or reimplement
 20         FlutterApplication and put your custom class here.
 21    -->
-22    <application
-22-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:9:5-32:19
-23        android:name="io.flutter.app.FlutterApplication"
-23-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:10:9-57
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:24:18-86
-25        android:debuggable="true"
-26        android:icon="@mipmap/ic_launcher"
-26-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:12:9-43
-27        android:label="clima" >
-27-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:11:9-30
-28        <activity
-28-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:13:9-31:20
-29            android:name="co.appbrewery.clima.MainActivity"
-29-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:14:13-41
-30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-30-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:17:13-144
-31            android:hardwareAccelerated="true"
-31-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:18:13-47
-32            android:launchMode="singleTop"
-32-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:15:13-43
-33            android:theme="@style/LaunchTheme"
-33-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:16:13-47
-34            android:windowSoftInputMode="adjustResize" >
-34-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:19:13-55
-35
-36            <!--
-37                 This keeps the window background of the activity showing
-38                 until Flutter renders its first frame. It can be removed if
-39                 there is no splash screen (such as the default splash screen
-40                 defined in @style/LaunchTheme).
-41            -->
-42            <meta-data
-42-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:24:13-26:40
-43                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
-43-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:25:17-82
-44                android:value="true" />
-44-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:26:17-37
-45
-46            <intent-filter>
-46-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:27:13-30:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:28:17-68
-47-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:28:25-66
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:9:5-80
+22-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:9:22-78
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:10:5-78
+23-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:10:22-76
+24
+25    <application
+25-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:11:5-34:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:12:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.2.0] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\19e07ef27262353bfade2175b3cb485a\core-1.2.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="clima" >
+30-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:13:9-30
+31        <activity
+31-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:15:9-33:20
+32            android:name="co.appbrewery.clima.MainActivity"
+32-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:16:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:19:13-144
+34            android:hardwareAccelerated="true"
+34-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:20:13-47
+35            android:launchMode="singleTop"
+35-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:17:13-43
+36            android:theme="@style/LaunchTheme"
+36-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:18:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:21:13-55
+38
+39            <!--
+40                 This keeps the window background of the activity showing
+41                 until Flutter renders its first frame. It can be removed if
+42                 there is no splash screen (such as the default splash screen
+43                 defined in @style/LaunchTheme).
+44            -->
+45            <meta-data
+45-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:26:13-28:40
+46                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+46-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:27:17-82
+47                android:value="true" />
+47-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:28:17-37
 48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:29:17-76
-49-->/Users/admin/Desktop/FlutterCourse/ClimaFlutterApp/ClimaFlutterApp/android/app/src/main/AndroidManifest.xml:29:27-74
-50            </intent-filter>
-51        </activity>
-52    </application>
-53
-54</manifest>
+49            <intent-filter>
+49-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:29:13-32:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:30:17-68
+50-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:30:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:31:17-76
+52-->F:\Flutter_Projects\android\app\src\main\AndroidManifest.xml:31:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\013353318ce014f941fb8cace7c53ba0\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\013353318ce014f941fb8cace7c53ba0\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\013353318ce014f941fb8cace7c53ba0\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\013353318ce014f941fb8cace7c53ba0\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\4b22b7b6bdb2fa5f08c553413b0411a1\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\4b22b7b6bdb2fa5f08c553413b0411a1\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Tarlochan\.gradle\caches\transforms-2\files-2.1\4b22b7b6bdb2fa5f08c553413b0411a1\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+63    </application>
+64
+65</manifest>
