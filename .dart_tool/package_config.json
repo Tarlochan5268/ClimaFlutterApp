@@ -80,6 +80,18 @@
       "languageVersion": "2.3"
     },
     {
+      "name": "http",
+      "rootUri": "file:///D:/Flutter/Flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///D:/Flutter/Flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "location_permissions",
       "rootUri": "file:///D:/Flutter/Flutter/.pub-cache/hosted/pub.dartlang.org/location_permissions-3.0.0+1",
       "packageUri": "lib/",
@@ -102,6 +114,12 @@
       "rootUri": "file:///D:/Flutter/Flutter/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "pedantic",
+      "rootUri": "file:///D:/Flutter/Flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "sky_engine",
@@ -164,7 +182,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-09-05T21:38:55.544790Z",
+  "generated": "2020-09-09T04:13:56.561053Z",
   "generator": "pub",
   "generatorVersion": "2.9.2"
 }
